@@ -1,5 +1,5 @@
 import streamlit as st
-from agent.agent import generate_test_for_url
+from agent import generate_test_for_url
 
 st.title("Agentic Web Tester")
 url = st.text_input("Enter website URL to test")
